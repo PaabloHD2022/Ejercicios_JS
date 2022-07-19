@@ -13,7 +13,7 @@ else{
     alert("ingrese nombre y apellido por favor...");
 }
 
-if ((fechaUno =="") && (fechaDos =="")){
+if ((isNaN(fechaUno)) && (isNaN(fechaDos))){
     alert("Ingrese numeros de fecha y mes de naciemiento por favor...")
 }
 
@@ -64,7 +64,3 @@ else if((fechaUno >=21) && (fechaDos ==1) || (fechaUno <= 19) && (fechaDos ==2))
 else if((fechaUno >=20) && (fechaDos ==2) || (fechaUno <=20) && (fechaDos ==3)){
     alert("Tu signo es: Piscis");
 }
-
-
-
-
