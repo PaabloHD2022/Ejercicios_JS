@@ -13,17 +13,24 @@ body{
     width: 90%;
     text-align: center;
     margin: auto;
-    background-color: #898989;
+    background-color: #e2c063;
+    align-items: center;
 }
 
 body h1{
     font-family: 'Sora', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
+    margin-top: 1em;
     padding: 1rem;
 }
 
 body p{
     font-family: 'Barlow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 1rem;
+}
+
+#lista{
+    text-align: center;
+    width: 450px;
 }
