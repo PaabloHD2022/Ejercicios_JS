@@ -16,11 +16,13 @@ function validacion(){
 
 
     do {
-        nombreCompleto = prompt("Ingrese su nombre y apellido");
+        nombreCompleto = prompt("Ingrese su nombre y apellido...");
         diaNac = parseInt(prompt("Ingrese dia de nacimento..."));
         mesNac = parseInt(prompt("Ingrese mes de nacimento..."));
-        anioNac = parseInt(prompt("Ingrese anio de nacimento..."));   
-    }while(nombreCompleto.trim() == "" || isNaN(diaNac) || isNaN(mesNac) || isNaN(anioNac));
+        anioNac = parseInt(prompt("Ingrese año de nacimento..."));   
+    }
+    
+    while(nombreCompleto.trim() == "" || isNaN(diaNac) || isNaN(mesNac) || isNaN(anioNac));
 
     const signo = signoZodiaco(diaNac, mesNac)
     const edad = anioActual-anioNac;
